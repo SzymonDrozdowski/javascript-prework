@@ -51,11 +51,9 @@ function buttonClicked(argButtonName) {
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
   }
 
-  let playerMove, randomNumber, computerMove, playerInput;
+  let playerMove = argButtonName, randomNumber, computerMove, playerInput;
 
-  playerMove = argButtonName;
   console.log('wybór ruchu gracza to: ' + playerInput);
-  playerMove = argButtonName;
   console.log('ruch gracza to: ' + playerMove);
   randomNumber = Math.floor(Math.random() * 3 + 1);
   console.log('wylosowana liczba to: ' + randomNumber);
